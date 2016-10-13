@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "Belajar Markdown"
+date:   2016-10-13 11:49:45 +0200
+categories: jekyll update
+---
+# Ini adalah markdown dari MyRepo
+
+* buah
+   + apel
+   + mangga
+       - indramayu
+       - harum manis
+   + durian
