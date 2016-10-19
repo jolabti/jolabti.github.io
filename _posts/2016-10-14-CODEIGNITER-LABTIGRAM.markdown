@@ -11,7 +11,7 @@ categories: jekyll update
   * KETERANGAN PHOTO
   * UPLOAD Photo
 
-  [](http://octodex.github.com/assets/newphoto.jpg)
+  [](https://jolabti.github.io/assets/newphoto.jpg)
 
 
 
