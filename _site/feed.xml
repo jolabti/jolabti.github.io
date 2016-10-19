@@ -5,90 +5,22 @@
     <description>Learning and Documenting !</description>
     <link>https://jolabti.github.io/</link>
     <atom:link href="https://jolabti.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 13 Oct 2016 16:06:07 +0700</pubDate>
-    <lastBuildDate>Thu, 13 Oct 2016 16:06:07 +0700</lastBuildDate>
+    <pubDate>Tue, 18 Oct 2016 21:54:06 +0700</pubDate>
+    <lastBuildDate>Tue, 18 Oct 2016 21:54:06 +0700</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
-        <title>Welcome to Jekyll!</title>
-        <description>&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
-
-&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
-
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;
-
-</description>
-        <pubDate>Tue, 19 Jul 2016 16:49:45 +0700</pubDate>
-        <link>https://jolabti.github.io/jekyll/update/2016/07/19/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">https://jolabti.github.io/jekyll/update/2016/07/19/welcome-to-jekyll.html</guid>
-        
-        
-        <category>jekyll</category>
-        
-        <category>update</category>
-        
-      </item>
-    
-      <item>
-        <title>ANDROID TUTORIAL : Aplikasi RJ BAN</title>
-        <description>&lt;p&gt;Aplikasi RJ Ban merupakan aplikasi pemesanan Ban yang menggunakan konsep JSON sebagai penarik data dari database. Framework - framework yang terlibat di antaranya adalah:&lt;/p&gt;
-
+        <title>CODEIGNITER :LABTIGRAM</title>
+        <description>&lt;h3 id=&quot;deskripsi-aplikasi&quot;&gt;Deskripsi Aplikasi&lt;/h3&gt;
+&lt;p&gt;Aplikasi Labtigram merupakan aplikasi yang berbasis bahasa PHP (Hypertext Preprocessor). Di dalam aplikasi terdapat fiture :&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;Retrofit&lt;/li&gt;
-  &lt;li&gt;Android Volley&lt;/li&gt;
-  &lt;li&gt;Picassa Photo&lt;/li&gt;
+  &lt;li&gt;LOGIN ACCOUNT&lt;/li&gt;
+  &lt;li&gt;TAMPILAN HASIL UPLOAD Photo&lt;/li&gt;
+  &lt;li&gt;KETERANGAN PHOTO&lt;/li&gt;
+  &lt;li&gt;UPLOAD Photo&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;mengapa-menggunakan-framework-tersebut-&quot;&gt;Mengapa menggunakan Framework tersebut ?&lt;/h2&gt;
-
-&lt;p&gt;Jawaban sederhanannya adalah untuk mempermudah pemanggilan JSON dengan binding yang sudah tersedia dalam framework - framework tersebut.&lt;/p&gt;
-
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;apel
-mangga
-durian&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-java&quot; data-lang=&quot;java&quot;&gt;&lt;span class=&quot;kn&quot;&gt;package&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;latihan&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
-
-&lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Latihan&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
-       &lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;String&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[]&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;args&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
-
-              &lt;span class=&quot;c1&quot;&gt;// deklarasi variabel&lt;/span&gt;
-              &lt;span class=&quot;kt&quot;&gt;double&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;panjang&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;25&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
-              &lt;span class=&quot;kt&quot;&gt;double&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;lebar&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
-              &lt;span class=&quot;kt&quot;&gt;double&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;jumlah&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
-              &lt;span class=&quot;kt&quot;&gt;double&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;kurang&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
-              &lt;span class=&quot;kt&quot;&gt;double&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;kali&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
-              &lt;span class=&quot;kt&quot;&gt;double&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;bagi&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
-              &lt;span class=&quot;kt&quot;&gt;double&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;modulus&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
-
-              &lt;span class=&quot;c1&quot;&gt;//proses operasi&lt;/span&gt;
-              &lt;span class=&quot;n&quot;&gt;jumlah&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;panjang&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;lebar&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// operasi Penjumlahan&lt;/span&gt;
-              &lt;span class=&quot;n&quot;&gt;kurang&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;panjang&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;lebar&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// operasi Pengurangan&lt;/span&gt;
-              &lt;span class=&quot;n&quot;&gt;kali&lt;/span&gt;   &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;panjang&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;lebar&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// operasi Perkalian&lt;/span&gt;
-              &lt;span class=&quot;n&quot;&gt;bagi&lt;/span&gt;   &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;panjang&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;/&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;lebar&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// Operasi Pembagian&lt;/span&gt;
-              &lt;span class=&quot;n&quot;&gt;modulus&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;panjang&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;lebar&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;//operasi Modulus&lt;/span&gt;
-
-              &lt;span class=&quot;c1&quot;&gt;//mencetak hasil&lt;/span&gt;
-              &lt;span class=&quot;n&quot;&gt;System&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;out&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;println&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Hasil Penjumlahan    : &quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;jumlah&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
-              &lt;span class=&quot;n&quot;&gt;System&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;out&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;println&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Hasil Pengurangan    : &quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;kurang&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
-              &lt;span class=&quot;n&quot;&gt;System&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;out&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;println&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Hasil Perkalian      : &quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;kali&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
-              &lt;span class=&quot;n&quot;&gt;System&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;out&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;println&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Hasil Pembagian      : &quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;bagi&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
-              &lt;span class=&quot;n&quot;&gt;System&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;out&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;println&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Hasil Modulus : &quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;modulus&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
-       &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
-
-&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
+&lt;hr /&gt;
 &lt;hr /&gt;
 &lt;p&gt;DENGAN SEMANGAT HARI INI
 —&lt;/p&gt;
@@ -97,8 +29,8 @@ durian&lt;/p&gt;
 
 </description>
         <pubDate>Sat, 13 Oct 1945 17:19:45 +0730</pubDate>
-        <link>https://jolabti.github.io/jekyll/update/1945/10/13/Belajar-Android-Aplikasi-RJ-Ban.html</link>
-        <guid isPermaLink="true">https://jolabti.github.io/jekyll/update/1945/10/13/Belajar-Android-Aplikasi-RJ-Ban.html</guid>
+        <link>https://jolabti.github.io/jekyll/update/1945/10/13/CODEIGNITER-LABTIGRAM.html</link>
+        <guid isPermaLink="true">https://jolabti.github.io/jekyll/update/1945/10/13/CODEIGNITER-LABTIGRAM.html</guid>
         
         
         <category>jekyll</category>
