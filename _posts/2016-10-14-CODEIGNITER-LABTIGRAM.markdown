@@ -10,7 +10,9 @@ categories: jekyll update
   * TAMPILAN HASIL UPLOAD Photo
   * KETERANGAN PHOTO
   * UPLOAD Photo
-  
+
+  [](http://octodex.github.com/assets/newphoto.jpg)
+
 
 
 
