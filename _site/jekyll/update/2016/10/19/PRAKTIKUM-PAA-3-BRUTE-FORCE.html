@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>MATERI PAA - 3 : Algoritma Bruteforce</title>
+  <meta name="description" content="MATERI PERTEMUAN 3 - PAA : ALGROITMA BRUTEFORCE">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="https://jolabti.github.io/jekyll/update/2016/10/19/PRAKTIKUM-PAA-3-BRUTE-FORCE.html">
+  <link rel="alternate" type="application/rss+xml" title="Johan Nainggolan" href="https://jolabti.github.io/feed.xml">
+</head>
+
+
+  <body>
+      <div class="outer">
+        <header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">Johan Nainggolan</a>
+
+  </div>
+
+  <div class="header-badge">
+    <a href="/">
+        <img src="/assets/newphoto.jpg" />
+    </a>
+  </div>
+
+</header>
+
+
+        <div class="page-content">
+          <div class="wrapper">
+            <article class="post card" itemscope itemtype="http://schema.org/BlogPosting">
+ <div class="card-content">
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">MATERI PAA - 3 : Algoritma Bruteforce</h1>
+    <p class="post-meta"><time datetime="2016-10-19T16:49:45+07:00" itemprop="datePublished">Oct 19, 2016</time></p>
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+    <h3 id="materi-pertemuan-3---paa--algroitma-bruteforce">MATERI PERTEMUAN 3 - PAA : ALGROITMA BRUTEFORCE</h3>
+
+<p>Definisi dari Algoritma Brutefore adalah sebuah metode pencarian yang lempang (<em>straightfoward</em>) yang mana memiliki cara kerja untuk mencari solusi hingga tuntas pada proses pencariannya.</p>
+
+<p>Penggunaan Algoritma Bruteforce terdapat pada <em>pencarian string</em> , <em>pemecahan kombinasi password</em> , serta pada Metode ( _ Traveling Salesman Problem _ ) yang berkeenaan dengan jarak tempuh efisien.</p>
+
+<hr />
+<p>Pada pertemuan sesi ini , praktikum menggunakan bahasa C++ untuk membuat contoh dasar mengenai operasi string untuk menemukan jumlah sebuah karakter masukkan terhadap total dari jumlah keseluruhan data karakter yang tersedia.</p>
+
+<div class="language-c++ highlighter-rouge"><pre class="highlight"><code><span class="cp">#include &lt;iostream&gt;
+</span>
+<span class="c1">// #include &lt;stdio&gt;
+</span>
+<span class="k">using</span> <span class="k">namespace</span> <span class="n">std</span><span class="p">;</span>
+
+<span class="kt">char</span> <span class="n">inputanChecker</span> <span class="p">[</span><span class="mi">1000</span><span class="p">];</span>
+<span class="kt">int</span> <span class="n">penghitung</span> <span class="o">=</span><span class="mi">0</span><span class="p">;</span>
+<span class="n">string</span> <span class="n">detected</span><span class="p">;</span>
+
+<span class="kt">int</span> <span class="n">main</span><span class="p">(){</span>
+
+		<span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">"Program Checker Untuk Test Karakter dan Jumlahnya </span><span class="se">\n</span><span class="s">"</span><span class="p">;</span>
+		<span class="n">cout</span> <span class="o">&lt;&lt;</span><span class="s">"===================================================== </span><span class="se">\n</span><span class="s">"</span><span class="p">;</span>
+		<span class="n">cout</span> <span class="o">&lt;&lt;</span><span class="s">"</span><span class="se">\n</span><span class="s">"</span><span class="p">;</span>
+		<span class="n">cout</span> <span class="o">&lt;&lt;</span><span class="s">"</span><span class="se">\n</span><span class="s">"</span><span class="p">;</span>
+		<span class="n">string</span> <span class="n">sourceData</span><span class="o">=</span> <span class="s">"908g0dojdkfdkjldsjfnvdkjncsjvfkgjrlqkjaldkjaldkalaaasklfjdlgjdlgj"</span><span class="p">;</span>
+
+		<span class="n">cout</span> <span class="o">&lt;&lt;</span><span class="s">"Masukkan (sebuah saja) karakter untuk diperiksa jumlahnya </span><span class="se">\n</span><span class="s">"</span><span class="p">;</span>
+		<span class="n">cout</span> <span class="o">&lt;&lt;</span><span class="s">"============================================================</span><span class="se">\n</span><span class="s">"</span><span class="p">;</span>
+		<span class="n">cin</span> <span class="o">&gt;&gt;</span> <span class="n">inputanChecker</span><span class="p">;</span>
+		<span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span> <span class="p">;</span> <span class="n">i</span><span class="o">&lt;</span> <span class="n">sourceData</span><span class="p">.</span><span class="n">size</span><span class="p">()</span> <span class="p">;</span><span class="n">i</span><span class="o">++</span><span class="p">){</span>
+
+				<span class="k">if</span> <span class="p">(</span><span class="n">sourceData</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="o">==</span><span class="n">inputanChecker</span><span class="p">[</span><span class="mi">0</span><span class="p">]){</span>
+					<span class="n">penghitung</span><span class="o">+=</span><span class="mi">1</span><span class="p">;</span>
+				<span class="p">}</span>
+				<span class="k">else</span> <span class="k">if</span> <span class="p">(</span><span class="n">sourceData</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="o">==</span><span class="n">inputanChecker</span><span class="p">[</span><span class="n">i</span><span class="p">]){</span>
+					<span class="n">detected</span> <span class="o">=</span> <span class="n">sourceData</span><span class="p">[</span><span class="n">i</span><span class="p">];</span>
+				<span class="p">}</span>
+		<span class="p">}</span>
+		<span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">" Total Karakter yang dihasilkan adalah .... </span><span class="se">\n</span><span class="s">"</span><span class="p">;</span>
+		<span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">"Detected character adalah ...."</span> <span class="o">&lt;&lt;</span> <span class="n">detected</span><span class="p">;</span>
+		<span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="n">penghitung</span><span class="p">;</span>
+
+<span class="p">}</span>
+</code></pre>
+</div>
+
+<p>Outputnya adalah :</p>
+
+<p><img src="/assets/output.png" alt="alt text" /></p>
+
+<blockquote>
+  <p>Untuk Pertanyaan Lebih Lanjut :
+johandata@yahoo.com</p>
+</blockquote>
+
+<hr />
+
+<h1 id="ia05">3IA05</h1>
+<hr />
+<p>Buatlah laporan akhir seperti kondisi di bawah ini :.</p>
+
+<p>Deretan sumberdata : 100101010010111 <strong>1010101</strong> 0001</p>
+
+<p>Kombinasi yang harus dicari : <strong>1010101</strong></p>
+
+<p>Buatlah program dalam bahasa C++ untuk menemukan solusi berapa jumlah kombinasi yang harus di cari dalam sekumpulan deretan sumber data dan konvert kombinasi tersebut ke dalam <em>desimal</em> !</p>
+
+<hr />
+
+<h1 id="ia11">3IA11</h1>
+<hr />
+<p>Buatlah laporan akhir seperti kondisi di bawah ini :.</p>
+
+<p>Deretan sumberdata : 100101010 <strong>010111101</strong> 01010001</p>
+
+<p>Kombinasi yang harus dicari : <strong>010111101</strong></p>
+
+<p>Buatlah program dalam bahasa C++ untuk menemukan solusi berapa jumlah kombinasi yang harus di cari dalam sekumpulan deretan sumber data dan konvert kombinasi tersebut ke dalam <em>hexa</em> !</p>
+
+<hr />
+
+<h1 id="ia13">3IA13</h1>
+<hr />
+<p>Buatlah laporan akhir seperti kondisi di bawah ini :.</p>
+
+<p>Deretan sumberdata : 100001101010010101010000101010101010</p>
+
+<p>Kombinasi yang harus dicari : 101 dan 100</p>
+
+<p>Buatlah program dalam bahasa C++ untuk menemukan solusi berapa jumlah kombinasi yang harus di cari dalam sekumpulan deretan sumber data dan konvert kombinasi tersebut ke dalam <em>desimal</em> !</p>
+
+<hr />
+
+<!--
+Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+
+[jekyll-docs]: http://jekyllrb.com/docs/home
+[jekyll-gh]:   https://github.com/jekyll/jekyll
+[jekyll-talk]: https://talk.jekyllrb.com/ -->
+
+  </div>
+</div>
+</article>
+
+          </div>
+        </div>
+
+        <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <span class="footer-heading">Johan Nainggolan</span>
+
+  </div>
+
+</footer>
+
+      </div>
+  </body>
+  
+</html>

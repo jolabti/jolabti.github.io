@@ -5,32 +5,134 @@
     <description>Learning and Documenting !</description>
     <link>https://jolabti.github.io/</link>
     <atom:link href="https://jolabti.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 18 Oct 2016 21:54:06 +0700</pubDate>
-    <lastBuildDate>Tue, 18 Oct 2016 21:54:06 +0700</lastBuildDate>
+    <pubDate>Thu, 20 Oct 2016 20:19:35 +0700</pubDate>
+    <lastBuildDate>Thu, 20 Oct 2016 20:19:35 +0700</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
-        <title>CODEIGNITER :LABTIGRAM</title>
-        <description>&lt;h3 id=&quot;deskripsi-aplikasi&quot;&gt;Deskripsi Aplikasi&lt;/h3&gt;
-&lt;p&gt;Aplikasi Labtigram merupakan aplikasi yang berbasis bahasa PHP (Hypertext Preprocessor). Di dalam aplikasi terdapat fiture :&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;LOGIN ACCOUNT&lt;/li&gt;
-  &lt;li&gt;TAMPILAN HASIL UPLOAD Photo&lt;/li&gt;
-  &lt;li&gt;KETERANGAN PHOTO&lt;/li&gt;
-  &lt;li&gt;UPLOAD Photo&lt;/li&gt;
-&lt;/ul&gt;
+        <title>MATERI PAA - 3 : Algoritma Bruteforce</title>
+        <description>&lt;h3 id=&quot;materi-pertemuan-3---paa--algroitma-bruteforce&quot;&gt;MATERI PERTEMUAN 3 - PAA : ALGROITMA BRUTEFORCE&lt;/h3&gt;
+
+&lt;p&gt;Definisi dari Algoritma Brutefore adalah sebuah metode pencarian yang lempang (&lt;em&gt;straightfoward&lt;/em&gt;) yang mana memiliki cara kerja untuk mencari solusi hingga tuntas pada proses pencariannya.&lt;/p&gt;
+
+&lt;p&gt;Penggunaan Algoritma Bruteforce terdapat pada &lt;em&gt;pencarian string&lt;/em&gt; , &lt;em&gt;pemecahan kombinasi password&lt;/em&gt; , serta pada Metode ( _ Traveling Salesman Problem _ ) yang berkeenaan dengan jarak tempuh efisien.&lt;/p&gt;
 
 &lt;hr /&gt;
+&lt;p&gt;Pada pertemuan sesi ini , praktikum menggunakan bahasa C++ untuk membuat contoh dasar mengenai operasi string untuk menemukan jumlah sebuah karakter masukkan terhadap total dari jumlah keseluruhan data karakter yang tersedia.&lt;/p&gt;
+
+&lt;div class=&quot;language-c++ highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;cp&quot;&gt;#include &amp;lt;iostream&amp;gt;
+&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;// #include &amp;lt;stdio&amp;gt;
+&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;using&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;namespace&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;std&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;kt&quot;&gt;char&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;inputanChecker&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1000&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
+&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;penghitung&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;string&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;detected&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(){&lt;/span&gt;
+
+		&lt;span class=&quot;n&quot;&gt;cout&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Program Checker Untuk Test Karakter dan Jumlahnya &lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+		&lt;span class=&quot;n&quot;&gt;cout&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;===================================================== &lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+		&lt;span class=&quot;n&quot;&gt;cout&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+		&lt;span class=&quot;n&quot;&gt;cout&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+		&lt;span class=&quot;n&quot;&gt;string&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sourceData&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;908g0dojdkfdkjldsjfnvdkjncsjvfkgjrlqkjaldkjaldkalaaasklfjdlgjdlgj&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+
+		&lt;span class=&quot;n&quot;&gt;cout&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Masukkan (sebuah saja) karakter untuk diperiksa jumlahnya &lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+		&lt;span class=&quot;n&quot;&gt;cout&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;============================================================&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+		&lt;span class=&quot;n&quot;&gt;cin&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;inputanChecker&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+		&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sourceData&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;size&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;++&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;){&lt;/span&gt;
+
+				&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sourceData&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;inputanChecker&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]){&lt;/span&gt;
+					&lt;span class=&quot;n&quot;&gt;penghitung&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+				&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+				&lt;span class=&quot;k&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sourceData&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;inputanChecker&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]){&lt;/span&gt;
+					&lt;span class=&quot;n&quot;&gt;detected&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sourceData&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
+				&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+		&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+		&lt;span class=&quot;n&quot;&gt;cout&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot; Total Karakter yang dihasilkan adalah .... &lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+		&lt;span class=&quot;n&quot;&gt;cout&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Detected character adalah ....&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;detected&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+		&lt;span class=&quot;n&quot;&gt;cout&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;penghitung&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Outputnya adalah :&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/output.png&quot; alt=&quot;alt text&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Untuk Pertanyaan Lebih Lanjut :
+johandata@yahoo.com&lt;/p&gt;
+&lt;/blockquote&gt;
+
 &lt;hr /&gt;
-&lt;p&gt;DENGAN SEMANGAT HARI INI
-—&lt;/p&gt;
+
+&lt;h1 id=&quot;ia05&quot;&gt;3IA05&lt;/h1&gt;
+&lt;hr /&gt;
+&lt;p&gt;Buatlah laporan akhir seperti kondisi di bawah ini :.&lt;/p&gt;
+
+&lt;p&gt;Deretan sumberdata : 100101010010111 &lt;strong&gt;1010101&lt;/strong&gt; 0001&lt;/p&gt;
+
+&lt;p&gt;Kombinasi yang harus dicari : &lt;strong&gt;1010101&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Buatlah program dalam bahasa C++ untuk menemukan solusi berapa jumlah kombinasi yang harus di cari dalam sekumpulan deretan sumber data dan konvert kombinasi tersebut ke dalam &lt;em&gt;desimal&lt;/em&gt; !&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;ia11&quot;&gt;3IA11&lt;/h1&gt;
+&lt;hr /&gt;
+&lt;p&gt;Buatlah laporan akhir seperti kondisi di bawah ini :.&lt;/p&gt;
+
+&lt;p&gt;Deretan sumberdata : 100101010 &lt;strong&gt;010111101&lt;/strong&gt; 01010001&lt;/p&gt;
+
+&lt;p&gt;Kombinasi yang harus dicari : &lt;strong&gt;010111101&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Buatlah program dalam bahasa C++ untuk menemukan solusi berapa jumlah kombinasi yang harus di cari dalam sekumpulan deretan sumber data dan konvert kombinasi tersebut ke dalam &lt;em&gt;hexa&lt;/em&gt; !&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;ia13&quot;&gt;3IA13&lt;/h1&gt;
+&lt;hr /&gt;
+&lt;p&gt;Buatlah laporan akhir seperti kondisi di bawah ini :.&lt;/p&gt;
+
+&lt;p&gt;Deretan sumberdata : 100001101010010101010000101010101010&lt;/p&gt;
+
+&lt;p&gt;Kombinasi yang harus dicari : 101 dan 100&lt;/p&gt;
+
+&lt;p&gt;Buatlah program dalam bahasa C++ untuk menemukan solusi berapa jumlah kombinasi yang harus di cari dalam sekumpulan deretan sumber data dan konvert kombinasi tersebut ke dalam &lt;em&gt;desimal&lt;/em&gt; !&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;!--
+Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+
+[jekyll-docs]: http://jekyllrb.com/docs/home
+[jekyll-gh]:   https://github.com/jekyll/jekyll
+[jekyll-talk]: https://talk.jekyllrb.com/ --&gt;
+</description>
+        <pubDate>Wed, 19 Oct 2016 16:49:45 +0700</pubDate>
+        <link>https://jolabti.github.io/jekyll/update/2016/10/19/PRAKTIKUM-PAA-3-BRUTE-FORCE.html</link>
+        <guid isPermaLink="true">https://jolabti.github.io/jekyll/update/2016/10/19/PRAKTIKUM-PAA-3-BRUTE-FORCE.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>LABTIGRAM </title>
+        <description>&lt;h1 id=&quot;algoritma-brute-force&quot;&gt;&lt;em&gt;Algoritma Brute Force&lt;/em&gt;&lt;/h1&gt;
 
 &lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;
 
 </description>
-        <pubDate>Sat, 13 Oct 1945 17:19:45 +0730</pubDate>
-        <link>https://jolabti.github.io/jekyll/update/1945/10/13/CODEIGNITER-LABTIGRAM.html</link>
-        <guid isPermaLink="true">https://jolabti.github.io/jekyll/update/1945/10/13/CODEIGNITER-LABTIGRAM.html</guid>
+        <pubDate>Wed, 19 Oct 2016 16:49:45 +0700</pubDate>
+        <link>https://jolabti.github.io/jekyll/update/2016/10/19/CODEIGNITER-LABTIGRAM.html</link>
+        <guid isPermaLink="true">https://jolabti.github.io/jekyll/update/2016/10/19/CODEIGNITER-LABTIGRAM.html</guid>
         
         
         <category>jekyll</category>
