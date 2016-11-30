@@ -3,11 +3,11 @@
   <channel>
     <title>Johan Nainggolan</title>
     <description>Learning and Documenting !</description>
-    <link>https://jolabti.github.io/</link>
-    <atom:link href="https://jolabti.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 20 Oct 2016 20:19:35 +0700</pubDate>
-    <lastBuildDate>Thu, 20 Oct 2016 20:19:35 +0700</lastBuildDate>
-    <generator>Jekyll v3.2.1</generator>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 30 Nov 2016 21:31:39 +0700</pubDate>
+    <lastBuildDate>Wed, 30 Nov 2016 21:31:39 +0700</lastBuildDate>
+    <generator>Jekyll v3.3.1</generator>
     
       <item>
         <title>MATERI PAA - 3 : Algoritma Bruteforce</title>
@@ -69,7 +69,7 @@ johandata@yahoo.com&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;h1 id=&quot;ia05&quot;&gt;3IA05&lt;/h1&gt;
+&lt;h1 id=&quot;3ia05&quot;&gt;3IA05&lt;/h1&gt;
 &lt;hr /&gt;
 &lt;p&gt;Buatlah laporan akhir seperti kondisi di bawah ini :.&lt;/p&gt;
 
@@ -81,7 +81,7 @@ johandata@yahoo.com&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;h1 id=&quot;ia11&quot;&gt;3IA11&lt;/h1&gt;
+&lt;h1 id=&quot;3ia11&quot;&gt;3IA11&lt;/h1&gt;
 &lt;hr /&gt;
 &lt;p&gt;Buatlah laporan akhir seperti kondisi di bawah ini :.&lt;/p&gt;
 
@@ -93,7 +93,7 @@ johandata@yahoo.com&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;h1 id=&quot;ia13&quot;&gt;3IA13&lt;/h1&gt;
+&lt;h1 id=&quot;3ia13&quot;&gt;3IA13&lt;/h1&gt;
 &lt;hr /&gt;
 &lt;p&gt;Buatlah laporan akhir seperti kondisi di bawah ini :.&lt;/p&gt;
 
@@ -113,8 +113,8 @@ Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most ou
 [jekyll-talk]: https://talk.jekyllrb.com/ --&gt;
 </description>
         <pubDate>Wed, 19 Oct 2016 16:49:45 +0700</pubDate>
-        <link>https://jolabti.github.io/jekyll/update/2016/10/19/PRAKTIKUM-PAA-3-BRUTE-FORCE.html</link>
-        <guid isPermaLink="true">https://jolabti.github.io/jekyll/update/2016/10/19/PRAKTIKUM-PAA-3-BRUTE-FORCE.html</guid>
+        <link>http://localhost:4000/jekyll/update/2016/10/19/PRAKTIKUM-PAA-3-BRUTE-FORCE.html</link>
+        <guid isPermaLink="true">http://localhost:4000/jekyll/update/2016/10/19/PRAKTIKUM-PAA-3-BRUTE-FORCE.html</guid>
         
         
         <category>jekyll</category>
@@ -131,8 +131,8 @@ Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most ou
 
 </description>
         <pubDate>Wed, 19 Oct 2016 16:49:45 +0700</pubDate>
-        <link>https://jolabti.github.io/jekyll/update/2016/10/19/CODEIGNITER-LABTIGRAM.html</link>
-        <guid isPermaLink="true">https://jolabti.github.io/jekyll/update/2016/10/19/CODEIGNITER-LABTIGRAM.html</guid>
+        <link>http://localhost:4000/jekyll/update/2016/10/19/CODEIGNITER-LABTIGRAM.html</link>
+        <guid isPermaLink="true">http://localhost:4000/jekyll/update/2016/10/19/CODEIGNITER-LABTIGRAM.html</guid>
         
         
         <category>jekyll</category>
