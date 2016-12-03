@@ -37,11 +37,62 @@ Definisi : membuat aplikasi Android untuk mengecek inputan yang berupa nama.
 
 Langkah - langkah sebagai berikut :
 
-> Buatlah project baru dengan mengklik file-> new project
+* Buatlah project baru dengan mengklik file-> new project
 
-![alt text](https://github.com/jolabti/jolabti.github.io/tree/master/assets/newproject.png "Logo Title Text 1")
+* Buat nama project "CekBerat" (tanpa tanda kutip)
 
->
+* Atur pada file res>layout>activity_main.xml dengan kode sebagai berikut:
+
+```xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   xmlns:tools="http://schemas.android.com/tools"
+   android:layout_width="match_parent"
+   android:layout_height="match_parent"
+   android:paddingBottom="@dimen/activity_vertical_margin"
+   android:paddingLeft="@dimen/activity_horizontal_margin"
+   android:paddingRight="@dimen/activity_horizontal_margin"
+   android:paddingTop="@dimen/activity_vertical_margin"
+
+   tools:context="com.apps.alter.cekberat.MainActivity">
+
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="@string/judul"
+       android:textAlignment="center"
+       android:textSize="20dp" />
+
+   <EditText
+       android:layout_marginTop="35dp"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/angkaberat"
+       android:hint="masukan angka"
+       android:textColor="@color/colorAccent"
+       android:textSize="12pt"
+
+
+       />
+
+   <Button
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:paddingLeft="12dp"
+       android:layout_marginTop="150dp"
+       android:text="Hasil"
+       android:id="@+id/button" />
+
+
+
+</RelativeLayout>
+
+```
+
+*
+
+
 
 2.
 
