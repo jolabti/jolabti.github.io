@@ -39,6 +39,14 @@ Langkah - langkah sebagai berikut :
 
 * Buatlah project baru dengan mengklik file-> new project
 
+![alt text](https://github.com/jolabti/jolabti.github.io/blob/master/assets/newproject.png "Logo Title Text 1")
+
+
+
+
+
+
+
 * Buat nama project "CekBerat" (tanpa tanda kutip)
 
 * Atur pada file res>layout>activity_main.xml dengan kode sebagai berikut:
@@ -46,6 +54,7 @@ Langkah - langkah sebagai berikut :
 ```xml
 
 <?xml version="1.0" encoding="utf-8"?>
+
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
    xmlns:tools="http://schemas.android.com/tools"
    android:layout_width="match_parent"
