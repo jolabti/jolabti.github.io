@@ -31,7 +31,19 @@ Notes:
 > Sesuaikan spec PC Anda dengan Android Studio yang ingin di unduh.
 
 ---
-### Aplikasi "Cek Nama"
+Judul : Aplikasi Cek Berat.
+
+Definisi : membuat aplikasi Android untuk mengecek inputan yang berupa nama.
+
+Langkah - langkah sebagai berikut :
+
+> Buatlah project baru dengan mengklik file-> new project
+
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+
+>
+
+2.
 
 
 
