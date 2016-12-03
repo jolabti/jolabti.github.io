@@ -39,7 +39,7 @@ Langkah - langkah sebagai berikut :
 
 > 1. Buatlah project baru dengan mengklik file-> new project
 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+![alt text](https://github.com/jolabti/jolabti.github.io/tree/master/assets/newproject.png "New Screen")
 
 >
 
