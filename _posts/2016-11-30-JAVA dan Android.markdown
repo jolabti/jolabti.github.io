@@ -37,9 +37,9 @@ Definisi : membuat aplikasi Android untuk mengecek inputan yang berupa nama.
 
 Langkah - langkah sebagai berikut :
 
-> 1. Buatlah project baru dengan mengklik file-> new project
+> Buatlah project baru dengan mengklik file-> new project
 
-![alt text](https://github.com/jolabti/jolabti.github.io/tree/master/assets/newproject.png "New Screen")
+![alt text](https://github.com/jolabti/jolabti.github.io/tree/master/assets/newproject.png "Logo Title Text 1")
 
 >
 
